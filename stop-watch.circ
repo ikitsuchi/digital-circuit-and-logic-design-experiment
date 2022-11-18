@@ -3024,58 +3024,436 @@ e3a49eae 567dc695 a5ff75b3 2e123843 c4d9ef49 8fe38bcb 51db2737 4bdfefb4
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="clabelcolor" val="#000000"/>
-    <comp lib="0" loc="(40,180)" name="Pin">
+    <wire from="(160,230)" to="(220,230)"/>
+    <wire from="(100,400)" to="(220,400)"/>
+    <wire from="(140,40)" to="(260,40)"/>
+    <wire from="(380,870)" to="(380,1080)"/>
+    <wire from="(140,90)" to="(140,180)"/>
+    <wire from="(290,1090)" to="(290,1120)"/>
+    <wire from="(280,690)" to="(320,690)"/>
+    <wire from="(80,80)" to="(80,110)"/>
+    <wire from="(80,110)" to="(80,210)"/>
+    <wire from="(300,250)" to="(320,250)"/>
+    <wire from="(300,890)" to="(320,890)"/>
+    <wire from="(300,1100)" to="(300,1140)"/>
+    <wire from="(140,320)" to="(220,320)"/>
+    <wire from="(160,810)" to="(300,810)"/>
+    <wire from="(100,130)" to="(100,250)"/>
+    <wire from="(100,400)" to="(100,590)"/>
+    <wire from="(100,930)" to="(100,1070)"/>
+    <wire from="(290,420)" to="(290,440)"/>
+    <wire from="(290,580)" to="(290,600)"/>
+    <wire from="(300,430)" to="(300,460)"/>
+    <wire from="(300,750)" to="(300,780)"/>
+    <wire from="(160,130)" to="(260,130)"/>
+    <wire from="(370,840)" to="(400,840)"/>
+    <wire from="(140,760)" to="(230,760)"/>
+    <wire from="(270,500)" to="(300,500)"/>
+    <wire from="(290,920)" to="(320,920)"/>
+    <wire from="(270,980)" to="(300,980)"/>
+    <wire from="(300,780)" to="(320,780)"/>
+    <wire from="(60,30)" to="(60,70)"/>
+    <wire from="(350,110)" to="(370,110)"/>
+    <wire from="(350,910)" to="(370,910)"/>
+    <wire from="(300,1100)" to="(320,1100)"/>
+    <wire from="(140,850)" to="(220,850)"/>
+    <wire from="(80,540)" to="(220,540)"/>
+    <wire from="(80,1020)" to="(220,1020)"/>
+    <wire from="(370,180)" to="(370,230)"/>
+    <wire from="(300,590)" to="(300,650)"/>
+    <wire from="(80,540)" to="(80,790)"/>
+    <wire from="(60,20)" to="(320,20)"/>
+    <wire from="(80,350)" to="(80,540)"/>
+    <wire from="(380,700)" to="(380,830)"/>
+    <wire from="(40,130)" to="(100,130)"/>
+    <wire from="(120,180)" to="(120,440)"/>
+    <wire from="(40,280)" to="(160,280)"/>
+    <wire from="(60,490)" to="(60,690)"/>
+    <wire from="(200,460)" to="(250,460)"/>
+    <wire from="(80,790)" to="(260,790)"/>
+    <wire from="(80,880)" to="(80,1020)"/>
+    <wire from="(290,550)" to="(290,560)"/>
+    <wire from="(300,800)" to="(300,810)"/>
+    <wire from="(300,80)" to="(300,100)"/>
+    <wire from="(120,440)" to="(290,440)"/>
+    <wire from="(100,590)" to="(100,930)"/>
+    <wire from="(180,610)" to="(220,610)"/>
+    <wire from="(180,1090)" to="(220,1090)"/>
+    <wire from="(280,790)" to="(320,790)"/>
+    <wire from="(140,90)" to="(230,90)"/>
+    <wire from="(270,310)" to="(300,310)"/>
+    <wire from="(160,130)" to="(160,230)"/>
+    <wire from="(300,430)" to="(320,430)"/>
+    <wire from="(300,590)" to="(320,590)"/>
+    <wire from="(270,1120)" to="(290,1120)"/>
+    <wire from="(380,190)" to="(400,190)"/>
+    <wire from="(380,830)" to="(400,830)"/>
+    <wire from="(290,1030)" to="(290,1070)"/>
+    <wire from="(140,180)" to="(220,180)"/>
+    <wire from="(80,350)" to="(220,350)"/>
+    <wire from="(370,790)" to="(370,840)"/>
+    <wire from="(120,1120)" to="(250,1120)"/>
+    <wire from="(180,420)" to="(180,610)"/>
+    <wire from="(380,30)" to="(380,150)"/>
+    <wire from="(60,300)" to="(60,490)"/>
+    <wire from="(120,440)" to="(120,640)"/>
+    <wire from="(180,950)" to="(300,950)"/>
+    <wire from="(60,830)" to="(60,970)"/>
+    <wire from="(80,210)" to="(80,350)"/>
+    <wire from="(290,920)" to="(290,930)"/>
+    <wire from="(180,950)" to="(180,1090)"/>
+    <wire from="(300,930)" to="(300,950)"/>
+    <wire from="(80,110)" to="(320,110)"/>
+    <wire from="(200,380)" to="(200,460)"/>
+    <wire from="(180,420)" to="(220,420)"/>
+    <wire from="(280,40)" to="(320,40)"/>
+    <wire from="(120,640)" to="(120,1120)"/>
+    <wire from="(370,860)" to="(400,860)"/>
+    <wire from="(270,840)" to="(300,840)"/>
+    <wire from="(350,1080)" to="(380,1080)"/>
+    <wire from="(300,800)" to="(320,800)"/>
+    <wire from="(270,930)" to="(290,930)"/>
+    <wire from="(430,850)" to="(450,850)"/>
+    <wire from="(290,360)" to="(290,400)"/>
+    <wire from="(160,230)" to="(160,280)"/>
+    <wire from="(60,690)" to="(60,740)"/>
+    <wire from="(80,880)" to="(220,880)"/>
+    <wire from="(160,560)" to="(160,810)"/>
+    <wire from="(60,690)" to="(260,690)"/>
+    <wire from="(160,370)" to="(160,560)"/>
+    <wire from="(60,20)" to="(60,30)"/>
+    <wire from="(140,510)" to="(140,710)"/>
+    <wire from="(60,160)" to="(60,300)"/>
+    <wire from="(140,710)" to="(320,710)"/>
+    <wire from="(290,890)" to="(290,900)"/>
+    <wire from="(160,900)" to="(160,1040)"/>
+    <wire from="(180,610)" to="(180,950)"/>
+    <wire from="(180,330)" to="(180,420)"/>
+    <wire from="(380,190)" to="(380,410)"/>
+    <wire from="(80,790)" to="(80,880)"/>
+    <wire from="(120,640)" to="(220,640)"/>
+    <wire from="(60,490)" to="(220,490)"/>
+    <wire from="(60,970)" to="(220,970)"/>
+    <wire from="(270,170)" to="(300,170)"/>
+    <wire from="(270,650)" to="(300,650)"/>
+    <wire from="(290,1070)" to="(320,1070)"/>
+    <wire from="(350,410)" to="(380,410)"/>
+    <wire from="(300,210)" to="(320,210)"/>
+    <wire from="(280,750)" to="(300,750)"/>
+    <wire from="(300,930)" to="(320,930)"/>
+    <wire from="(40,30)" to="(60,30)"/>
+    <wire from="(40,180)" to="(120,180)"/>
+    <wire from="(140,180)" to="(140,230)"/>
+    <wire from="(40,330)" to="(180,330)"/>
+    <wire from="(80,210)" to="(220,210)"/>
+    <wire from="(300,500)" to="(300,550)"/>
+    <wire from="(140,320)" to="(140,510)"/>
+    <wire from="(160,560)" to="(220,560)"/>
+    <wire from="(160,1040)" to="(220,1040)"/>
+    <wire from="(270,1080)" to="(320,1080)"/>
+    <wire from="(200,460)" to="(200,660)"/>
+    <wire from="(140,850)" to="(140,990)"/>
+    <wire from="(300,980)" to="(300,1060)"/>
+    <wire from="(100,250)" to="(100,400)"/>
+    <wire from="(160,280)" to="(160,370)"/>
+    <wire from="(60,740)" to="(60,830)"/>
+    <wire from="(60,300)" to="(220,300)"/>
+    <wire from="(200,660)" to="(200,1140)"/>
+    <wire from="(290,240)" to="(320,240)"/>
+    <wire from="(290,400)" to="(320,400)"/>
+    <wire from="(270,460)" to="(300,460)"/>
+    <wire from="(290,560)" to="(320,560)"/>
+    <wire from="(370,160)" to="(400,160)"/>
+    <wire from="(350,700)" to="(380,700)"/>
+    <wire from="(300,100)" to="(320,100)"/>
+    <wire from="(280,80)" to="(300,80)"/>
+    <wire from="(270,550)" to="(290,550)"/>
+    <wire from="(270,1030)" to="(290,1030)"/>
+    <wire from="(350,230)" to="(370,230)"/>
+    <wire from="(350,790)" to="(370,790)"/>
+    <wire from="(300,1060)" to="(320,1060)"/>
+    <wire from="(140,710)" to="(140,760)"/>
+    <wire from="(370,860)" to="(370,910)"/>
+    <wire from="(180,270)" to="(180,330)"/>
+    <wire from="(160,370)" to="(220,370)"/>
+    <wire from="(270,410)" to="(320,410)"/>
+    <wire from="(300,120)" to="(300,130)"/>
+    <wire from="(300,310)" to="(300,390)"/>
+    <wire from="(60,740)" to="(230,740)"/>
+    <wire from="(140,230)" to="(140,320)"/>
+    <wire from="(160,810)" to="(160,900)"/>
+    <wire from="(350,570)" to="(450,570)"/>
+    <wire from="(60,70)" to="(60,160)"/>
+    <wire from="(200,1140)" to="(300,1140)"/>
+    <wire from="(60,830)" to="(220,830)"/>
+    <wire from="(270,270)" to="(300,270)"/>
+    <wire from="(290,1090)" to="(320,1090)"/>
+    <wire from="(350,30)" to="(380,30)"/>
+    <wire from="(280,130)" to="(300,130)"/>
+    <wire from="(300,390)" to="(320,390)"/>
+    <wire from="(270,360)" to="(290,360)"/>
+    <wire from="(300,550)" to="(320,550)"/>
+    <wire from="(270,600)" to="(290,600)"/>
+    <wire from="(380,150)" to="(400,150)"/>
+    <wire from="(380,870)" to="(400,870)"/>
+    <wire from="(140,40)" to="(140,90)"/>
+    <wire from="(300,840)" to="(300,890)"/>
+    <wire from="(370,110)" to="(370,160)"/>
+    <wire from="(180,270)" to="(250,270)"/>
+    <wire from="(100,250)" to="(290,250)"/>
+    <wire from="(160,900)" to="(220,900)"/>
+    <wire from="(100,590)" to="(220,590)"/>
+    <wire from="(270,220)" to="(320,220)"/>
+    <wire from="(100,1070)" to="(220,1070)"/>
+    <wire from="(290,240)" to="(290,250)"/>
+    <wire from="(300,250)" to="(300,270)"/>
+    <wire from="(60,70)" to="(230,70)"/>
+    <wire from="(40,80)" to="(80,80)"/>
+    <wire from="(140,760)" to="(140,850)"/>
+    <wire from="(40,230)" to="(140,230)"/>
+    <wire from="(40,380)" to="(200,380)"/>
+    <wire from="(60,160)" to="(220,160)"/>
+    <wire from="(290,420)" to="(320,420)"/>
+    <wire from="(290,580)" to="(320,580)"/>
+    <wire from="(290,900)" to="(320,900)"/>
+    <wire from="(370,180)" to="(400,180)"/>
+    <wire from="(300,120)" to="(320,120)"/>
+    <wire from="(270,890)" to="(290,890)"/>
+    <wire from="(100,930)" to="(250,930)"/>
+    <wire from="(430,170)" to="(450,170)"/>
+    <wire from="(300,170)" to="(300,210)"/>
+    <wire from="(200,660)" to="(220,660)"/>
+    <wire from="(140,510)" to="(220,510)"/>
+    <wire from="(140,990)" to="(220,990)"/>
+    <comp lib="1" loc="(270,220)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,550)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,170)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,980)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(280,130)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(280,690)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(270,1030)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(350,410)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="5"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+      <a name="negate4" val="false"/>
+    </comp>
+    <comp lib="0" loc="(40,330)" name="Pin">
       <a name="facing" val="east"/>
       <a name="output" val="false"/>
       <a name="width" val="1"/>
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
-      <a name="label" val="X0"/>
+      <a name="label" val="Y1"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(450,570)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="1" loc="(270,360)" name="XNOR Gate">
+      <a name="facing" val="east"/>
       <a name="width" val="1"/>
-      <a name="tristate" val="true"/>
-      <a name="pull" val="none"/>
-      <a name="label" val="Equal"/>
-      <a name="labelloc" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
-    <comp lib="0" loc="(450,170)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
+    <comp lib="1" loc="(270,1080)" name="XNOR Gate">
+      <a name="facing" val="east"/>
       <a name="width" val="1"/>
-      <a name="tristate" val="true"/>
-      <a name="pull" val="none"/>
-      <a name="label" val="Great"/>
-      <a name="labelloc" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
-    <comp lib="0" loc="(40,130)" name="Pin">
+    <comp lib="1" loc="(350,790)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+    </comp>
+    <comp lib="1" loc="(430,170)" name="OR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+    </comp>
+    <comp lib="1" loc="(280,80)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="0" loc="(40,30)" name="Pin">
       <a name="facing" val="east"/>
       <a name="output" val="false"/>
       <a name="width" val="1"/>
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
-      <a name="label" val="X1"/>
+      <a name="label" val="X3"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(40,280)" name="Pin">
+    <comp lib="1" loc="(270,890)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,500)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="0" loc="(40,80)" name="Pin">
       <a name="facing" val="east"/>
       <a name="output" val="false"/>
       <a name="width" val="1"/>
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
-      <a name="label" val="Y2"/>
+      <a name="label" val="X2"/>
       <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(280,790)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
@@ -3090,24 +3468,38 @@ e3a49eae 567dc695 a5ff75b3 2e123843 c4d9ef49 8fe38bcb 51db2737 4bdfefb4
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(40,80)" name="Pin">
+    <comp lib="1" loc="(280,750)" name="XNOR Gate">
       <a name="facing" val="east"/>
-      <a name="output" val="false"/>
       <a name="width" val="1"/>
-      <a name="tristate" val="false"/>
-      <a name="pull" val="none"/>
-      <a name="label" val="X2"/>
-      <a name="labelloc" val="north"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
     </comp>
-    <comp lib="0" loc="(40,330)" name="Pin">
+    <comp lib="1" loc="(350,30)" name="AND Gate">
       <a name="facing" val="east"/>
-      <a name="output" val="false"/>
       <a name="width" val="1"/>
-      <a name="tristate" val="false"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="0" loc="(450,570)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="1"/>
+      <a name="tristate" val="true"/>
       <a name="pull" val="none"/>
-      <a name="label" val="Y1"/>
+      <a name="label" val="Equal"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -3123,16 +3515,141 @@ e3a49eae 567dc695 a5ff75b3 2e123843 c4d9ef49 8fe38bcb 51db2737 4bdfefb4
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(40,30)" name="Pin">
+    <comp lib="1" loc="(270,840)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,600)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,270)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(430,850)" name="OR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+    </comp>
+    <comp lib="0" loc="(40,280)" name="Pin">
       <a name="facing" val="east"/>
       <a name="output" val="false"/>
       <a name="width" val="1"/>
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
-      <a name="label" val="X3"/>
+      <a name="label" val="Y2"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(40,130)" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="false"/>
+      <a name="width" val="1"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="none"/>
+      <a name="label" val="X1"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(270,650)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(350,1080)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="5"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+      <a name="negate4" val="false"/>
+    </comp>
+    <comp lib="1" loc="(350,910)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,1120)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(350,230)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
     </comp>
     <comp lib="0" loc="(40,380)" name="Pin">
       <a name="facing" val="east"/>
@@ -3144,6 +3661,120 @@ e3a49eae 567dc695 a5ff75b3 2e123843 c4d9ef49 8fe38bcb 51db2737 4bdfefb4
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(450,170)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="1"/>
+      <a name="tristate" val="true"/>
+      <a name="pull" val="none"/>
+      <a name="label" val="Great"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(40,180)" name="Pin">
+      <a name="facing" val="east"/>
+      <a name="output" val="false"/>
+      <a name="width" val="1"/>
+      <a name="tristate" val="false"/>
+      <a name="pull" val="none"/>
+      <a name="label" val="X0"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(350,700)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,930)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(270,410)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(350,570)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
+      <a name="negate3" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,310)" name="XNOR Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="xor" val="odd"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+    </comp>
+    <comp lib="1" loc="(270,460)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(280,40)" name="NOT Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="20"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="1" loc="(350,110)" name="AND Gate">
+      <a name="facing" val="east"/>
+      <a name="width" val="1"/>
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+      <a name="out" val="01"/>
+      <a name="label" val=""/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+      <a name="negate0" val="false"/>
+      <a name="negate1" val="false"/>
+      <a name="negate2" val="false"/>
     </comp>
   </circuit>
   <circuit name="16位无符号比较器">
