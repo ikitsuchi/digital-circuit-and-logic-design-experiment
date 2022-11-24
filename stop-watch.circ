@@ -7212,37 +7212,83 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <circ-port height="8" pin="110,260" width="8" x="46" y="96"/>
       <circ-port height="8" pin="110,310" width="8" x="46" y="116"/>
       <circ-port height="8" pin="110,410" width="8" x="46" y="136"/>
-      <circ-port height="10" pin="670,150" width="10" x="85" y="65"/>
-      <circ-port height="10" pin="700,160" width="10" x="85" y="85"/>
-      <circ-port height="10" pin="760,170" width="10" x="85" y="105"/>
-      <circ-port height="10" pin="800,180" width="10" x="85" y="125"/>
-      <circ-port height="10" pin="850,190" width="10" x="85" y="145"/>
+      <circ-port height="10" pin="670,160" width="10" x="85" y="65"/>
+      <circ-port height="10" pin="700,170" width="10" x="85" y="85"/>
+      <circ-port height="10" pin="760,180" width="10" x="85" y="105"/>
+      <circ-port height="10" pin="800,190" width="10" x="85" y="125"/>
+      <circ-port height="10" pin="850,200" width="10" x="85" y="145"/>
       <circ-port height="8" pin="110,360" width="8" x="46" y="156"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="117"/>
     </appear>
-    <wire from="(600,180)" to="(800,180)"/>
-    <wire from="(600,160)" to="(700,160)"/>
-    <wire from="(600,170)" to="(760,170)"/>
-    <wire from="(600,190)" to="(850,190)"/>
     <wire from="(20,40)" to="(20,460)"/>
     <wire from="(20,460)" to="(900,460)"/>
     <wire from="(900,40)" to="(900,460)"/>
     <wire from="(20,40)" to="(900,40)"/>
-    <wire from="(600,150)" to="(670,150)"/>
-    <comp lib="0" loc="(670,150)" name="Pin">
+    <wire from="(110,160)" to="(120,160)"/>
+    <wire from="(120,150)" to="(120,160)"/>
+    <wire from="(120,150)" to="(230,150)"/>
+    <wire from="(130,160)" to="(130,210)"/>
+    <wire from="(110,210)" to="(130,210)"/>
+    <wire from="(130,160)" to="(230,160)"/>
+    <wire from="(110,260)" to="(140,260)"/>
+    <wire from="(140,170)" to="(140,260)"/>
+    <wire from="(140,170)" to="(230,170)"/>
+    <wire from="(150,180)" to="(150,310)"/>
+    <wire from="(110,310)" to="(150,310)"/>
+    <wire from="(150,180)" to="(230,180)"/>
+    <wire from="(160,190)" to="(160,360)"/>
+    <wire from="(110,360)" to="(160,360)"/>
+    <wire from="(160,190)" to="(230,190)"/>
+    <wire from="(390,160)" to="(400,160)"/>
+    <wire from="(390,160)" to="(390,220)"/>
+    <wire from="(390,220)" to="(400,220)"/>
+    <wire from="(390,280)" to="(400,280)"/>
+    <wire from="(390,280)" to="(390,410)"/>
+    <wire from="(110,410)" to="(390,410)"/>
+    <wire from="(260,150)" to="(380,150)"/>
+    <wire from="(380,180)" to="(400,180)"/>
+    <wire from="(380,150)" to="(380,180)"/>
+    <wire from="(370,160)" to="(370,240)"/>
+    <wire from="(260,160)" to="(370,160)"/>
+    <wire from="(390,220)" to="(390,280)"/>
+    <wire from="(370,240)" to="(400,240)"/>
+    <wire from="(360,170)" to="(360,300)"/>
+    <wire from="(260,170)" to="(360,170)"/>
+    <wire from="(360,300)" to="(400,300)"/>
+    <wire from="(600,190)" to="(800,190)"/>
+    <wire from="(600,160)" to="(670,160)"/>
+    <wire from="(600,170)" to="(700,170)"/>
+    <wire from="(600,180)" to="(760,180)"/>
+    <wire from="(600,200)" to="(850,200)"/>
+    <wire from="(440,220)" to="(450,220)"/>
+    <wire from="(450,170)" to="(450,220)"/>
+    <wire from="(460,180)" to="(460,280)"/>
+    <wire from="(440,280)" to="(460,280)"/>
+    <wire from="(490,160)" to="(490,320)"/>
+    <wire from="(490,160)" to="(570,160)"/>
+    <wire from="(440,160)" to="(490,160)"/>
+    <wire from="(500,170)" to="(500,330)"/>
+    <wire from="(450,170)" to="(500,170)"/>
+    <wire from="(500,170)" to="(570,170)"/>
+    <wire from="(510,180)" to="(510,340)"/>
+    <wire from="(220,340)" to="(510,340)"/>
+    <wire from="(510,180)" to="(570,180)"/>
+    <wire from="(460,180)" to="(510,180)"/>
+    <wire from="(220,220)" to="(220,340)"/>
+    <wire from="(220,220)" to="(230,220)"/>
+    <wire from="(210,330)" to="(500,330)"/>
+    <wire from="(210,210)" to="(210,330)"/>
+    <wire from="(210,210)" to="(230,210)"/>
+    <wire from="(200,320)" to="(490,320)"/>
+    <wire from="(200,200)" to="(230,200)"/>
+    <wire from="(200,200)" to="(200,320)"/>
+    <comp lib="0" loc="(850,200)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="1"/>
       <a name="tristate" val="true"/>
       <a name="pull" val="none"/>
-      <a name="label" val="SDsel"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp loc="(260,180)" name="码表控制器状态转换(自动生成)">
-      <a name="facing" val="east"/>
-      <a name="label" val=""/>
+      <a name="label" val="TMreset"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -7258,24 +7304,42 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(800,180)" name="Pin">
+    <comp loc="(600,160)" name="码表控制器输出函数(自动生成)">
+      <a name="facing" val="east"/>
+      <a name="label" val=""/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(700,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="1"/>
       <a name="tristate" val="true"/>
       <a name="pull" val="none"/>
-      <a name="label" val="TMen"/>
+      <a name="label" val="SDen"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(760,170)" name="Pin">
+    <comp lib="0" loc="(760,180)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="1"/>
       <a name="tristate" val="true"/>
       <a name="pull" val="none"/>
       <a name="label" val="DP-Sel"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="Dialog plain 12"/>
+      <a name="labelcolor" val="#000000"/>
+    </comp>
+    <comp lib="0" loc="(800,190)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="1"/>
+      <a name="tristate" val="true"/>
+      <a name="pull" val="none"/>
+      <a name="label" val="TMen"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -7290,24 +7354,20 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(700,160)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="1"/>
-      <a name="tristate" val="true"/>
-      <a name="pull" val="none"/>
-      <a name="label" val="SDen"/>
+    <comp loc="(260,180)" name="码表控制器状态转换(自动生成)">
+      <a name="facing" val="east"/>
+      <a name="label" val=""/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
     </comp>
-    <comp lib="0" loc="(850,190)" name="Pin">
+    <comp lib="0" loc="(670,160)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="1"/>
       <a name="tristate" val="true"/>
       <a name="pull" val="none"/>
-      <a name="label" val="TMreset"/>
+      <a name="label" val="SDsel"/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
@@ -7340,13 +7400,6 @@ bcbfcf4f 303557a5 c33fe7d1 5a8cbd9f 72e5a6e 180cb2c6 9313a6e2 c5fc7c97
       <a name="tristate" val="false"/>
       <a name="pull" val="none"/>
       <a name="label" val="CLK"/>
-      <a name="labelloc" val="north"/>
-      <a name="labelfont" val="Dialog plain 12"/>
-      <a name="labelcolor" val="#000000"/>
-    </comp>
-    <comp loc="(600,150)" name="码表控制器输出函数(自动生成)">
-      <a name="facing" val="east"/>
-      <a name="label" val=""/>
       <a name="labelloc" val="north"/>
       <a name="labelfont" val="Dialog plain 12"/>
       <a name="labelcolor" val="#000000"/>
